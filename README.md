@@ -10,8 +10,8 @@ The cross-platform system information is derived from the `psutil` Python packag
 * RAM %
 * Disk Read/Write
 * Bytes Sent/Received
-* RAM Used/Available
-* Disk Used/Available
+* RAM Used/Total
+* Disk Used/Total
 
 This dashboard is especially useful if placed on a secondary screen, such as another monitor, or a connected iPad running the [Duet](http://www.duetdisplay.com) app.
 
