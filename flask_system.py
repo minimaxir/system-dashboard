@@ -10,6 +10,7 @@ from flask_cors import CORS, cross_origin
 app = Flask(__name__)
 CORS(app)   # Necessary since API is running locally
 
+# Should match the period (in seconds) in Freeboard
 period = 1
 
 # Disable Flask console messages: http://stackoverflow.com/a/18379764
@@ -23,6 +24,9 @@ def index():
 
     disk_write_data_start = psutil.disk_io_counters(perdisk=False)
     io_data_start = psutil.net_io_counters()
+
+    # Some metrics are only reported in values since uptime,
+    # so sample over a period (in seconds) to get rate.
 
     time.sleep(period)
 
