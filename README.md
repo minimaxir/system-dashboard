@@ -2,9 +2,11 @@
 
 ![](docs/system-dashboard-gif.gif)
 
-Minimalist Win/OSX/Linux System Dashboard for Python 2/3 using Flask and [Freeboard](https://github.com/Freeboard/freeboard). This tool was created extremely quickly (less than a couple hours) as a "Hello World" test for both technologies, with impressive and practical results for the amount of time invested.
+Minimalist Win/OSX/Linux System Dashboard for Python 2/3 using Flask and [Freeboard](https://github.com/Freeboard/freeboard). This tool was created extremely quickly (less than a couple hours) as a "Hello World" test for both technologies, with impressive and practical results for the amount of time invested. The cross-platform system information is derived from the `psutil` Python package.
 
-The cross-platform system information is derived from the `psutil` Python package.
+This dashboard benefits greatly if placed on a secondary screen, such as an iPad running the [Duet](http://www.duetdisplay.com) app.
+
+![](docs/duet.png)
 
 ## Setup
 
